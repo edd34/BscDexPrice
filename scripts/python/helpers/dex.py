@@ -1,11 +1,9 @@
 dex = {
-    "bakeryswap": "",
-    "pancakeswap": {
-        "token" : "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F"},
-    "julswap": "0xbd67d157502A23309Db761c41965600c2Ec788b2",
+    "pancakeswap": {"token": "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F"},
+    "bscswap": {"token": "0xd954551853F55deb4Ae31407c423e67B1621424A"},
 }
 
-dex["julswap"]["abi"] = [
+dex["bscswap"]["abi"] = [
     {
         "inputs": [
             {"internalType": "address", "name": "_factory", "type": "address"},
