@@ -1,6 +1,14 @@
 dex = {
-    "pancakeswap": {"token": "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F"},
-    "bscswap": {"token": "0xd954551853F55deb4Ae31407c423e67B1621424A"},
+    "pancakeswap": {
+        "router_address": "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F",
+        "factory_address": "0xBCfCcbde45cE874adCB698cC183deBcF17952812",
+        "init_hash": "0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66"
+    },
+    "bscswap": {
+        "router_address": "0xd954551853F55deb4Ae31407c423e67B1621424A",
+        "factory_address": "0xCe8fd65646F2a2a897755A1188C04aCe94D2B8D0",
+        "init_hash": "0xacc1c81cc3e9fb496da555f6bd67c3a095e579b26c1b580070cc6afa8f0a94fa"
+        },
 }
 
 dex["bscswap"]["abi"] = [
